@@ -1,0 +1,49 @@
+
+// 确认框的样式
+.el-message-box__btns{
+  .el-button--primary{
+    background:#1e9aab;
+    color: #ffff;
+    border-color: #1e9aab
+  }
+}
+.btn-custom-cancel {
+  float: right;
+  margin-left: 10px;
+}
+/deep/.el-date-editor--daterange {
+  .el-range-separator{
+    width: 25px!important;
+  }
+}
+// input框被禁掉后的样式
+// .el-input.is-disabled .el-input__inner {
+//   background-color: #fff;
+//   color: #606266;
+//   cursor: not-allowed;
+// }
+// 按钮颜色
+.btn_theme {
+  background-color: #1e9aab;
+  border-color: #1e9aab;
+  color:white;
+  &:hover{
+    background-color: #1e9aab;
+  }
+  &:focus{
+    background-color: #1e9aab;
+  }
+}
+// 表头
+.el-table{
+  td {
+    padding: 6px 0;
+  }
+  .el-table__fixed-header-wrapper,
+  .el-table__header-wrapper{
+    tr, th { 
+        background:#1e9aab;
+        color: #ffff;
+      }
+    }
+}
